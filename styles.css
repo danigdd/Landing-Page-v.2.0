@@ -222,3 +222,16 @@
     scale: 1.1;
     cursor: pointer;
 }
+
+
+
+
+
+.footer {
+    display: flex;
+    padding: 40px 0px;
+    background-color: #1f2937;
+    justify-content: center;
+    color: #f9faf8;
+    font-size: 12px;
+}
