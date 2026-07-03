@@ -12,7 +12,7 @@
 }
 
 .header {
-    padding: 0px 400px;
+    padding: 0px 375px;
     flex: 1;
     height: 50px;
     display: flex;
@@ -40,4 +40,60 @@
     align-items: center;
     gap: 20px;;
     justify-content: flex-end;
+}
+
+.headersContainer a {
+    cursor: pointer;
+}
+
+
+
+.intro {
+    display: flex;
+    padding: 100px 375px;
+    background-color: #1F2937;
+    gap: 40px;
+
+}
+
+.intro .textContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.intro .textContainer h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.intro .textContainer p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.buttonWrapper {
+    display: flex;
+    justify-content: start;
+}
+.intro .textContainer .buttonWrapper button {
+    background-color: #3882F6;
+    border: 0;
+    padding: 10px 38px;
+    border-radius: 10px;
+    color: #F9FAF8;
+    font-weight: 900;
+    
+}
+
+.intro .placeholderContainer {
+    flex: 1;
+}
+
+.intro .placeholderContainer img {
+    width: 100%;
+    height: 100%;
+    
 }
